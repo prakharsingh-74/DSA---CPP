@@ -7,3 +7,16 @@ Next, for the inner loop, we focus on the number of columns and somehow connect 
 We print the ‘*’ inside the inner loop.
 Observe symmetry in the pattern or check if a pattern is a combination of two or more similar patterns.
 In this particular problem, we run the outer loop for N times since we have N rows to be printed, the inner loop also runs for N times as we have to print N stars in each row. This way we get a rectangular star pattern (square) with an equal number of rows and columns.
+
+
+if you want to print multiple * pattern by the user then the code will as -
+
+#include<bits/stdc++.h>
+void print1(intn){
+    for (int i=0; i<n; i++){
+        for (int j=0; j<n; j++){
+            cout << "*";
+        }
+    cout << endl;
+    }
+}
