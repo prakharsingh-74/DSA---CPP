@@ -36,7 +36,7 @@ public:
 };
 
 int main(){
-    Teacher t1;
+    Teacher t1;//constructor call
     t1.name = "Prakhar";
     t1.subject = "C++";
     t1.dept = "CSE";
